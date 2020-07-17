@@ -2,6 +2,9 @@
   "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "12.14.1"
+  },
   "author": "Andrew Mead",
   "license": "MIT",
   "scripts": {
