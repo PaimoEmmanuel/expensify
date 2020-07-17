@@ -10,8 +10,7 @@ exports[`Should render EditExpensePage correctly 1`] = `
         "amount": 1500,
         "createdAt": 0,
         "description": "Paid my last rent",
-        "id": 2,
-        "sortBy": "amount",
+        "id": "2",
         "text": "Rent",
       }
     }

@@ -14,27 +14,24 @@ exports[`Should render ExpenseList with expenses 1`] = `
     amount={500}
     createdAt={-1000}
     description="Water bill"
-    id={1}
+    id="1"
     key="1"
-    sortBy="amount"
     text="Water"
   />
   <ExpenseListItem
     amount={1500}
     createdAt={0}
     description="Paid my last rent"
-    id={2}
+    id="2"
     key="2"
-    sortBy="amount"
     text="Rent"
   />
   <ExpenseListItem
     amount={25000}
     createdAt={1000}
     description="Got a new laptop"
-    id={3}
+    id="3"
     key="3"
-    sortBy="amount"
     text="Laptop"
   />
 </div>
