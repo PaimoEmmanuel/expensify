@@ -58,3 +58,14 @@ export const startSetExpenses = () => {
     })
   }
 }
+
+//export startRemoveExpense
+export const startRemoveExpense = ({id} = {}) => {
+  return (dispatch) => {
+    return database.ref(`expenses/${id}`).remove().then(() => {
+    dispatch(removeExpense({id}));
+  }).catch((error) => {
+    console.log("Remove failed: " + error.message)
+  });
+  } 
+}
